@@ -11,10 +11,22 @@
 	<div class="login-page">
 		<div class = "login-form">
 			<div class = "login-title">ATester</div>
-			<div class = "login-form"></div>
-			<div class = "login-options"></div>
-			<button class = "login-button"></button>
-			<p></p>
+			<form action="">
+				<div class="account">
+					<input type="text" name="user" class="account-input" placeholder="userId / username">
+				</div>
+				<div class="password">
+					<input type="password" name="psw" class="psw-input" placeholder="password">
+				</div>
+				<div class = "login-options">
+					<input type="checkbox" id="remember" name="remember-me" value="remember">
+					<label for="remember">Remember Me</label>
+					<a href="#" class="forget-psw">Forget password?</a>
+				</div>
+				<button class = "login-button">Login in</button>
+			</form>
+			<hr>
+			<p>须知：如需账号请先联系管理员注册，方可登录。</p>
 		</div>
 	</div>
 </body>
