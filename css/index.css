@@ -1,0 +1,106 @@
+header{
+    min-height: 60px;
+    background: #22242a;
+}
+
+header .sidebar-scaled{
+    width: 60px;
+    height: 60px;
+    float: left;
+    text-align: center;
+    line-height: 60px;
+    color: #797979;
+}
+
+a.logo{
+    color: #f2f2f2;
+    font-size: 24px;
+    text-decoration: none;
+    display: inline-block;
+    line-height: 60px;
+    margin-left: 10px;
+}
+
+a.logo span{
+    color: #4ECDC4;
+}
+
+.header-menu{
+    height: 50px;
+    width: 260px;
+    float: right;
+    margin-top: 5px;
+}
+
+.header-menu ul{
+    margin: 0 auto;
+    padding: 0;
+}
+
+.header-menu ul li{
+    display: inline-block;
+    list-style: none;
+    margin-right: 15px;
+}
+
+.header-menu-email,.header-menu-notice,.header-menu-account{
+    position: relative;
+}
+
+.header-menu-email img,.header-menu-notice img{
+    width: 27px;
+    height: 24px;
+}
+
+.header-menu-email span,.header-menu-notice span{
+    display: inline-block;
+    min-width: 15px;
+    text-decoration: none;
+    background-color: #FCB322;
+    border-radius: 8px;
+    color: #f2f2f2;
+    font-size: 12px;
+    font-weight: bold;
+    position: absolute;
+    top: -8px;
+    right: -3px;
+    text-align: center;
+}
+
+.header-menu-notice span{
+    background-color: #FF0000;
+}
+
+.header-menu-account{
+    top: 6px;
+    margin-left: 10px;
+}
+
+.header-menu-account img{
+    width: 40px;
+    height: 40px;
+}
+
+.header-menu-account span{
+    color: #d0d0d0;
+    font-size: 16px;
+    font-weight: bold;
+    position: absolute;
+    margin: 10px 8px;
+}
+
+.content{
+    border: 1px solid red;
+    height: 100%;
+}
+
+.sidebar{
+    width: 210px;
+    height: 100%;
+    background: #2f323a;
+    /*position: fixed;*/
+    /*float: left;*/
+}
+
+
+
